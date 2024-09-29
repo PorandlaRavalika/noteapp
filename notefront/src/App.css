@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #a0d1d7;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e3d1d1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #7b68cf;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #102dbe;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.button1,
+.button2 {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #6d65e5;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button1 {
+  width: 20%;
+}
+
+.button2 {
+  width: 10%;
+
+}
+
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #102dbe;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 100px;
+  width: 100%;
+}
+
+button {
+  background-color: #93d1c8;
+  color: #dc67c6;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #efbdc4;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #a1cdb6;
+  border-radius: 5px;
+}
+
+li strong {
+  font-size: 18px;
+  color: #333;
+}
+
+li p {
+  font-size: 16px;
+  color: #555;
+}
